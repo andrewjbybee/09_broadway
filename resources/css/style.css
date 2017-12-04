@@ -1,9 +1,10 @@
 body {
   font-family: Helvetica; Arial; sans-serif;
+  text-align: center;
 }
 
 #home {
-  background-image: image(images/"the-flatiron-building.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   color: white;
 }
 
@@ -12,8 +13,9 @@ body {
   font-weight: bold;
 }
 
-#home p {
+.nav {
   font-size: 18px;
+  color: white;
 }
 
 .divider {
